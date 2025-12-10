@@ -17,4 +17,4 @@ jobs:
             - name: Line 2 of multi line script
               run: |
                 echo this is line 2
-                And this is line 3
+                echo And this is line 3
