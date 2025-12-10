@@ -441,3 +441,7 @@ Permissions are restricted
 Safe but limited
 
 This is the default one.
+
+-----
+
+In Github actions the reusable code available publicaly is nithing but 'Github actions'.
