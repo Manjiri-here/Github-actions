@@ -1,20 +1,22 @@
-name: practice_pipeline
+name: practice2
 
-on: 
+#on: [push, pull_request]
+
+on:
     push:
     pull_request:
         branches: [main]
     workflow_dispatch:
 
 jobs:
-    practice_job1:
+    build:
         runs-on: ubuntu-latest
-
         steps:
-            - uses: actions/checkout@v4
-            - name: multi line script
-              run: echo Hello! this is line one
-            - name: Line 2 of multi line script
-              run: |
-                echo this is line 2
-                echo And this is line 3
+        - name: command 1
+          run: echo Practice pipeline 1
+
+        - name: command 2
+          run: |
+           echo practice pipeline 2
+           echo practice pipeline 3
+        
