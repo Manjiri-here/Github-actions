@@ -697,3 +697,5 @@ Above script is basic.
 The main place to discover, browse, and find the latest versions of GitHub Actions (including official ones like actions/checkout and thousands of community-created ones) is the GitHub Marketplace.
 Direct Link
 Go to: https://github.com/marketplace?type=actions
+
+Enable Dependabot in your repo (via .github/dependabot.yml) – it automatically checks for newer action versions and opens PRs.
