@@ -687,8 +687,13 @@ Above script is basic.
 3) And then jobs. There can be multiple steps under 1 job and in such way there can be multiple jobs. Like in above example practice_job1 is the first job and the steps under it are multi line script and Line 2 of multi line script.
 4) Runs-on is another important point in GHA. It is the runnner on which the pipeline will be running.
 5) And 'uses' is another important keyword which is used to use actions in GHA. Here we are using predefined action of checkout the source code for the repo.
+---
 
    Doubt: How shell or linux commands like echo are used here?
    And what is run? Is it an action or?
    Pipeline to work on tomorrow.
-    
+---
+
+The main place to discover, browse, and find the latest versions of GitHub Actions (including official ones like actions/checkout and thousands of community-created ones) is the GitHub Marketplace.
+Direct Link
+Go to: https://github.com/marketplace?type=actions
